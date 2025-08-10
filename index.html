@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmed Said | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="favicon" href="images/download.jpg" type="jpg">
+
+ <style>
+    body {
+      margin: 10px;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('images/download.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      margin-top: 50px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .intro img {
+      border-radius: 15px;
+      width: 250px;
+      height: auto;
+    }
+
+    .intro-text h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #1c6dd0;
+    }
+
+    .intro-text h3 {
+      margin-top: 5px;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section h2 {
+      color: #1c6dd0;
+      margin-bottom: 15px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills h5 {
+      background-color: #f4c531;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    .contact input {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 25px;
+      background-color: #f0f0f0;
+      font-size: 16px;
+    }
+
+    .contact input:focus {
+      outline: 2px solid #1c6dd0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+ <nav class="navbar">
+  <ul>
+      <li><a href="index.html" title="home"><i class="fas fa-home"></i></a></li>
+      <li><a href="skills.html" title="skills"><i class="fas fa-tools"></i></a></li>
+      <li><a href="about.html" title="about-me"><i class="fas fa-user"></i></a></li>
+      <li><a href="onsocial.html" title="mesage-me"><i class="fas fa-share"></i></a></li>
+      <li><a href="projects.html" title="projects"><i class="fas fa-folder"></i></a></li>
+      <li><a href="contactus.html" title="contac-tme"><i class="fas fa-envelope"></i></a></li>
+  </ul>
+</nav>
+  <div class="container">
+    <div class="intro">
+      <img src="images/axmed.jpg" alt="Ahmed Said" />
+      <div class="intro-text">
+        <h1>Hi, I'm Ahmed Said</h1>
+        <h3>graphic designer</h3>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I’m an experienced logo designer passionate about crafting unique brand identities. I’ve worked on creative projects for startups, small businesses, and online brands, designing logos that are simple yet memorable. My expertise lies in minimalist, modern, and custom designs that connect with audiences. Every project I take on is tailored to the client’s vision, ensuring quality, creativity, and impact.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <h5>graphic design</h5>
+        <h5>logo design</h5>
+        <h5>modern  logo designer</h5>
+        <h5>social media graphics</h5>
+        <h5>bussiness card design</h5>
+      </div>
+    </div>
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <form method="post" action="https://getform.io/f/bmdkykma">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="message" placeholder="Your Message" required />
+      <input type="submit">
+   </form>
+    </div>
+  </div>
+</body>
+</html>
